@@ -1,13 +1,36 @@
-# Temperance
-Temperance é um serviço web que ajuda de forma simples mas efetiva, pessoas dependentes de algum vício seja ele qual for, a suportarem cada vez mais os momentos de recaída e aumentar sua resistência ao mesmo.  O meio usado para tal seria marcar o momento em que a pessoa caiu no vício, a quantia de dias sóbrios, e o momento da nova queda, auxiliando o usuário á gradualmente progredir a quantia de dias em sobriedade, para que com esforço e organização consiga se recuperar.
+# Kaizen - A Jornada da Melhora Contínua
+ Kaizen é uma ferramenta web minimalista, inspirada na filosofia japonesa do Kaizen (改善), que significa "melhora contínua". O projeto foi criado para auxiliar usuários a construir e monitorar bons hábitos através de ações pequenas, consistentes e diárias.
+
+Ao invés de focar em falhas ou recaídas, a abordagem aqui é celebrar o progresso diário. Acreditamos que a constância em pequenas ações é o que leva a grandes e duradouras transformações. O objetivo é simples: registrar a conclusão de um hábito a cada dia, construindo "correntes" de sucesso e visualizando sua evolução ao longo do tempo.
+
+## Funcionalidades Planejadas
+Cadastro de Hábitos: Permite que o usuário defina quais hábitos deseja cultivar.
+
+Check-in Diário: Uma forma simples de marcar um hábito como concluído no dia.
+
+Visualização de Sequências (Streaks): Mostra ao usuário por quantos dias consecutivos ele manteve um hábito.
+
+Histórico de Progresso: Um calendário ou gráfico que exibe a jornada do usuário, reforçando seu esforço e dedicação.
 
 # Desenvolvimento
-O projeto está sendo desenvolvido por Vagner Guimarães e Nathan de Paula, estudantes do curso superior em Análise e Desenvolvimento de Sistemas na instituição de Ensino UTFPR - Ponta Grossa.
-O mesmo será apresentado perante avaliação dentro da disciplina Web Servidor.
+O projeto está sendo desenvolvido por Vagner Guimarães e Nathan de Paula, estudantes do curso superior em Análise e Desenvolvimento de Sistemas na UTFPR - Câmpus Ponta Grossa.
 
-# Tecnologias
-## Front-End
-HTML, CSS, [JS quem sabe?].
+O mesmo será apresentado como trabalho de avaliação para a disciplina de Programação para Servidores Web.
 
-## Back-End
-PHP, [banco utilizado].
+## Tecnologias Utilizadas
+### Front-End
+HTML5
+
+CSS3
+
+JavaScript
+
+
+### Back-End
+PHP
+Postgresql
+
+## LinkedIn
+Vagner Guimarães: https://www.linkedin.com/in/vagnergcarneiro
+
+Nathan de Paula:
