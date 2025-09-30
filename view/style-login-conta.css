@@ -102,7 +102,7 @@ form button{
     font-size: larger;
     border-radius: 18px;
     font-weight: 600;
-    transition: 0.1s ease-out;
+    transition: 0.3s ease-out;
 }
 
 form button:hover{
@@ -111,14 +111,16 @@ form button:hover{
     font-size: larger;
     font-weight: 700;
     transform: scale(1.02);
+    transform: translateY(-8px);
     box-shadow: 3px 3px 10px  #250e3a;
 }
 
 form button:active{
     background-color: #2d0255;
     color: #31dfe4;
-    transform: scale(1.08);
-    box-shadow: 5px 5px 15px  #ffffff;
+    transform: scale(1);
+    transform: translateY(+3px);
+    box-shadow: 1px 1px 5px  #250e3a;
 }
 
 a{
@@ -127,14 +129,21 @@ a{
     background-color: #6dc6dc;
     border-radius: 10px;
     color: rgb(24, 13, 81);
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 a:hover {
     padding: 1.1%;
     background-color: #b1e8f6;
     color: rgb(38, 17, 145);
+    transform: translateY(-3px);
     box-shadow: 2px 2px 10px rgb(4, 28, 102);
+}
+
+a:active {
+    transform: translateY(+2px);
+    background-color: #3d8597;
+    color: rgb(255, 255, 255);
 }
 
 .erros-preenchimento span {
