@@ -13,15 +13,18 @@
 <body>
     <header>
         <h1 id="titulo">Temperance :D</h1>
-        <h2 id="subtitulo">Personalize sua Conta!</h2>
+        <h2 id="subtitulo">Personalização de perfil</h2>
     </header>
 
     <main>
         <form action="">
                 <div class="div-foto">
-                    <p>Escolha uma foto para seu perfil!</p>
-                    <label for="image-upload" class="placeholder-image"></label>
+                    <label for="image-upload" class="placeholder-image">Escolha uma foto</label>
                     <input type="file" id="image-upload" accept="image/*">
+                </div>
+                <div class="div-informacoes">
+                    <input type="text" placeholder="Qual nome ou apelido?">
+                    <input type="text" placeholder="Em poucas palavras, por que quer mudar seus habitos?">
                 </div>
         </form>
     </main>
