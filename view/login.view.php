@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperance Login</title>
     <link rel="shortcut icon" href="/view/images/sobriedade.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-login-conta.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <button type="submit">Efetuar Login</button>
         </form>
     </main>
-    <a href="/SobriedadeTesteXampp/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
+    <a href="/Kaizen-WebSvdor/kaizen/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
 </body>
 
 </html>
