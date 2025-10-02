@@ -33,7 +33,7 @@ Ele fará o download do projeto kaizen.zip, faça a extração para uma pasta ch
 
 ### Passo - 3 => Abrindo o projeto
 Com o Xampp iniciado e Apache Start ok, digite está url no seu navegador e aproveite os serviços!
-url: http://localhost/kaizen/index.php
+url: http://localhost/kaizen
 
 ## Tecnologias Utilizadas
 ### Front-End
