@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "email": "teste7@gmail.com",
+        "senhaHash": "$2y$10$jLAeROlyLCmJhux9I\/6gruzTjAS9d5fagwouNeEXjLc.65UuZMKjm"
+    },
+    {
+        "id": 2,
+        "email": "teste8@gmail.com",
+        "senhaHash": "$2y$10$iIuTqeHbMcKBfc8NPuepIOW73wXUF1W5kbLs1AHfpdh0RSyTCwmxW"
+    }
+]
