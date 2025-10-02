@@ -57,10 +57,17 @@
             <aside class="lista-habitos">
                 <h3>Lista de Hábitos</h3>
                 <ul>
-                    <li>Hábito 1</li>
-                    <li>Hábito 2</li>
-                    <li>Hábito 3</li>
-                    </ul>
+                    <?php
+                        if (isset($usuario['habitos']) && is_array($usuario['habitos'])) {
+                            foreach ($usuario['habitos'] as $habito_item) {
+                                $nome_habito = $habito_item['habitos']['nome-habito'] ?? 'Hábito sem nome';
+                                echo '<li>' . htmlspecialchars($nome_habito) . '</li>';
+                            }
+                        } else {
+                            echo '<li>Nenhum hábito adicionado.</li>';
+                        }
+                    ?>
+                </ul>
             </aside>
         </div>
 
