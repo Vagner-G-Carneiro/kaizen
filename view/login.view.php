@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAIZEN Login</title>
     <link rel="shortcut icon" href="/view/images/sobriedade.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style-geral.css">
+    <link rel="stylesheet" href="../view/style-geral.css">
 </head>
 
 <body>
@@ -46,7 +46,6 @@
     <a href="/kaizen/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
     
     <?php
-    
         if(isset($_SESSION['erros']))
         {
             unset($_SESSION['erros']);

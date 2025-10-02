@@ -1,7 +1,11 @@
 <?php
 
-    session_start();
-    require_once'../utils/permissao.php';
+    $usuario = $_SESSION['dados-usuario'] ?? null;
+
+    if (!$usuario) {
+        header('Location: /kaizen/controller/login.controller.php');
+        exit;
+    }
 
 ?>
 
@@ -10,10 +14,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Principal</title>
+    <title>Página Principal | Kaizen</title>
+    <link rel="stylesheet" href="../view/style-principal.css">
 </head>
 <body>
-    <h1>Pagina principal!</h1>
-    <h2>EBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h2>
+    
+    <main class="perfil-container">
+        <header class="perfil-header">
+            <img 
+                src="<?php echo ($_SESSION['dados-usuario']['foto']) ?>" 
+                alt="Foto de Perfil"
+                class="perfil-foto"
+            >
+            
+            <div class="perfil-info-geral">
+                <h1 id="titulo">Kaizen</h1>
+                <h2 id="subtitulo">Bem-vindo, <?php echo ($_SESSION['dados-usuario']['nome']) ?>!</h2>
+                <p class="email-usuario"><strong>Email:</strong> <?php echo ($_SESSION['dados-usuario']['email']) ?></p>
+            </div>
+        </header>
+
+        <div class="conteudo-principal-grid">
+            
+            <section class="dados-conquistas">
+                <h3>Dados e Conquistas</h3>
+                <p>Total de Hábitos: X</p>
+                <p>Streak Atual: Y dias</p>
+            </section>
+
+            <section class="grafico">
+                <div class="motivacao">
+                    <h4>Motivação Hábito:</h4>
+                    <p class="motivacao-texto"><?php echo ($_SESSION['dados-usuario']['motivacao-habito']) ?></p>
+                </div>
+                <div class="simulacao-grafico">
+                    Gráfico mostrando apenas crescimento
+                    <br>
+                    Muda a cada hábito escolhido
+                </div>
+            </section>
+
+            <aside class="lista-habitos">
+                <h3>Lista de Hábitos</h3>
+                <ul>
+                    <li>Hábito 1</li>
+                    <li>Hábito 2</li>
+                    <li>Hábito 3</li>
+                    </ul>
+            </aside>
+        </div>
+
+        <footer class="botoes-acao">
+            <button class="btn-acao">Adicionar Hábito</button>
+            <button class="btn-acao editar-perfil">Editar Perfil</button>
+        </footer>
+        
+    </main>
 </body>
 </html>

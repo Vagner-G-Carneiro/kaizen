@@ -38,7 +38,7 @@
 
     if($adicionar_habito)
     {
-        header('Location: /kaizen/view/principal.view.php');
+        header('Location: /kaizen/controller/principal.controller.php');
         exit;
     } else {
         $erros['erro-critico'] = 'Erro ao adicionar habito de usuario<br>Caso Persista contate<br>Os desenvolvedores.';
