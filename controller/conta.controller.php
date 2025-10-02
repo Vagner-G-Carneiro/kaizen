@@ -1,6 +1,6 @@
 <?php
 
-    require '../validacoes.php';
+    require '../utils/validacoes.php';
     require '../model/conta.model.php';
     session_start();
 
