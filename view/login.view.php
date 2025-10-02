@@ -46,7 +46,6 @@
     <a href="/kaizen/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
     
     <?php
-    
         if(isset($_SESSION['erros']))
         {
             unset($_SESSION['erros']);

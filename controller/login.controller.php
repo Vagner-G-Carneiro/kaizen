@@ -15,7 +15,7 @@
 
     if(!senha_valida($senha))
     {
-        $erros['senha'] = 'A senha deve conter ao menos uma letra minuscula<br>Uma maiuscula<br>Ter 8 ou mais caracteres.';
+        $erros['senha'] = 'A senha deve conter ao menos uma letra minuscula<br>Uma maiuscula<br>Ter 8 ou mais caracteres.<br>E possuir numero';
     }
 
     verificar_erros($erros, $email,$location);
@@ -29,7 +29,7 @@
 
     if($permitir_login == 0)
     {
-        header('Location: /kaizen/view/principal.view.php');
+        header('Location: /kaizen/controller/principal.controller.php');
         exit;
     } elseif ($permitir_login == 1)
     {
