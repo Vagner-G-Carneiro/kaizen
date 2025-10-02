@@ -17,7 +17,7 @@
 
     if(!senha_valida($senha))
     {
-        $erros['senha'] = 'A senha deve conter ao menos uma letra minuscula<br>Uma maiuscula<br>Ter 8 ou mais caracteres.';
+        $erros['senha'] = 'A senha deve conter ao menos uma letra minuscula<br>Uma letra maiuscula<br>Um digito<br>Ter 8 ou mais caracteres.';
     }
 
     if(!senhas_coincidem($senha, $confirmar_senha))

@@ -13,5 +13,23 @@
         "id": 3,
         "email": "teste3@gmail.com",
         "senhaHash": "$2y$10$VzIU3tj4i6R6ZaL16t1d9uXDS27AIk9Mmbmr0Yi1k94h7p0CVsWXy"
+    },
+    {
+        "id": 4,
+        "email": "emailteste@gmail.com",
+        "senhaHash": "$2y$10$myYvS2jcGThtVBbFhxuauO.aVrQlrHJieSDN8ZXtgvmZIltp44ANW",
+        "nome": "Nathan",
+        "motivo-mudar": "Muita coisa",
+        "foto": "Captura de tela 2025-04-23 211735.png",
+        "habitos": [
+            {
+                "id_habito": 1,
+                "habitos": {
+                    "nome-habito": "Academia",
+                    "meta": "3 vezes por semana",
+                    "motivacao-habito": "Sa&uacute;de"
+                }
+            }
+        ]
     }
 ]

@@ -1,4 +1,9 @@
-<?php ?>
+<?php 
+
+    session_start();
+    require_once'../utils/permissao.php';
+
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -10,27 +15,35 @@
 </head>
 <body>
         <main>
-        <form action="" method="">
-            <h1 id="titulo">Temperance :D</h1>
+        <form action="../controller/adicionar-habito.controller.php" method="POST">
+            <h1 id="titulo">KAIZEN >:D</h1>
             <h1 id="subtitulo">Adicionar Habito</h1>
             <section>
             <input type="text"
                         name="habito-nome"
                         placeholder="Nome:">
-                <div class="erros-preenchimento"><span id="erro-nome-habito">
+                <div class="erros-preenchimento"><span">
+                    <?php 
+                        echo ($_SESSION['erros']['habito-nome'] ?? '');
+                    ?>
                 </span></div>
 
                 <input type="text"
                         name="meta"
                         placeholder="Meta diária[Numero de paginas, tempo dedicado]:">
-
-                <div class="erros-preenchimento"><span id="erro-meta-diaria">
+                <div class="erros-preenchimento"><span>
+                    <?php 
+                        echo ($_SESSION['erros']['meta'] ?? '');
+                    ?>
                 </span></div>
 
                 <input type="text"
                         name="motivacao"
                         placeholder="Motivação para o habito: ">
-                <div class="erros-preenchimento"><span id="erro-motivacao">
+                <div class="erros-preenchimento"><span">
+                    <?php 
+                        echo ($_SESSION['erros']['motivacao'] ?? '');
+                    ?>
                 </span></div>
             </section>
             <button type="submit">Adicionar</button>
