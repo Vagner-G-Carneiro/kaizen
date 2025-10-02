@@ -51,4 +51,4 @@ Postgresql
 ## LinkedIn
 Vagner Guimarães: https://www.linkedin.com/in/vagnergcarneiro
 
-Nathan de Paula:
+Nathan de Paula: https://www.linkedin.com/in/nathan-de-paula-175a78217
