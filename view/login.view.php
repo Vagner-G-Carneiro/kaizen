@@ -1,5 +1,7 @@
 <?php
-    session_start();
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
 ?>
 
 <!DOCTYPE html>
@@ -43,7 +45,7 @@
             <button type="submit">Efetuar Login</button>
         </form>
     </main>
-    <a href="/kaizen/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
+    <a href="/kaizen/controller/conta.controller.php">Novo Aqui? Crie sua conta!</a>
     
     <?php
         if(isset($_SESSION['erros']))

@@ -5,11 +5,6 @@
         return filter_var($email, FILTER_VALIDATE_EMAIL);
     }
 
-    function email_existe(string $email): bool
-    {
-        return true;
-    }
-
     function senha_valida(string $senhaSemHash): bool
     {
         $regex = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d\W]{8,}$/';
@@ -19,12 +14,6 @@
     function senhas_coincidem(string $senha1, string $senha2): bool
     {
         return $senha1 == $senha2;
-    }
-
-    function senha_correta(string $senha_tentativa): bool
-    {
-        $senha_hash = 'hash';
-        return password_verify($senha_tentativa, $senha_hash);
     }
 
     function sanitize(string $campo): string
