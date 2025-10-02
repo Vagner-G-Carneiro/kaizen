@@ -18,6 +18,22 @@ Histórico de Progresso: Um calendário ou gráfico que exibe a jornada do usuá
 O projeto está sendo desenvolvido por Vagner Guimarães e Nathan de Paula, estudantes do curso superior em Análise e Desenvolvimento de Sistemas na UTFPR - Câmpus Ponta Grossa.
 
 O mesmo será apresentado como trabalho de avaliação para a disciplina de Programação para Servidores Web.
+# Intalação e configuração
+### Passo - 1 => XAMPP
+
+Primeiro, instale e configure o Xampp, ele te ajudara subindo um servidor nativo para que possa rodar nossa aplicação
+
+Xampp Link Download: https://www.apachefriends.org/pt_br/download.html
+
+Após o download, abra o Painel Control do Xampp e em Module Apache, clique no botão start, isso subirá nosso servidor.
+
+### Passo - 2 => GitHub e o HTDOCS
+No GitHub, abra o projeto, clique em <Code> e então em Download.ZIP
+Ele fará o download do projeto kaizen.zip, faça a extração para uma pasta chamada htdocs nas pastas do xampp, provavelmente ela estará em um caminho parecido com C:\xampp\htdocs
+
+### Passo - 3 => Abrindo o projeto
+Com o Xampp iniciado e Apache Start ok, digite está url no seu navegador e aproveite os serviços!
+url: http://localhost/kaizen/index.php
 
 ## Tecnologias Utilizadas
 ### Front-End
