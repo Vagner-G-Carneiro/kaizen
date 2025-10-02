@@ -72,7 +72,7 @@
         </div>
 
         <footer class="botoes-acao">
-            <button class="btn-acao">Adicionar Hábito</button>
+            <a class="btn-acao" href="../controller/adicionar-habito.controller.php">Adicionar Hábito</a>
             <button class="btn-acao editar-perfil">Editar Perfil</button>
             <a href="../controller/logout.controller.php" class="btn-acao">Deslogar</a>
         </footer>
