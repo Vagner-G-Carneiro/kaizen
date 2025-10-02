@@ -160,3 +160,18 @@ form button:active{
     transform: translateY(+3px);
     box-shadow: 1px 1px 5px  #250e3a;
 }
+
+.erros-preenchimento{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(91, 4, 4);
+    text-shadow: 2px 2px 10px red;
+    transition: 0.3s ease-in-out;
+}
+
+.erros-preenchimento:hover{
+    font-weight: 600;
+    color: rgb(91, 4, 4);
+    text-shadow: 3px 3px 15px red;
+    transform: translateY(-3px);
+}
