@@ -3,7 +3,7 @@
     $usuario = $_SESSION['dados-usuario'] ?? null;
 
     if (!$usuario) {
-        header('Location: /KaizenTESTE/controller/login.controller.php');
+        header('Location: /kaizen/controller/login.controller.php');
         exit;
     }
 
@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal | Kaizen</title>
-    <link rel="stylesheet" href="style-principal.css"> 
+    <link rel="stylesheet" href="../view/style-principal.css">
 </head>
 <body>
     

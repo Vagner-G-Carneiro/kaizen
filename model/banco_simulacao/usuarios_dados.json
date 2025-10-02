@@ -67,5 +67,23 @@
                 }
             }
         ]
+    },
+    {
+        "id": 7,
+        "email": "teste12@gmail.com",
+        "senhaHash": "$2y$10$ztzbqk9BrK647nXaoDdaJ.aWcV42exPa3e9VqJLSiGaxbG1Ou0u4K",
+        "nome": "Teste 12",
+        "motivo-mudar": "Quero me tornar algu&eacute;m bem melhor, sou um teste, e quero testar melhor!",
+        "foto": "Captura de tela 2025-10-02 095240.png",
+        "habitos": [
+            {
+                "id_habito": 1,
+                "habitos": {
+                    "nome-habito": "Teste 12 da Silva",
+                    "meta": "Testar 1000 telas",
+                    "motivacao-habito": "Ser o the best of testes"
+                }
+            }
+        ]
     }
 ]
