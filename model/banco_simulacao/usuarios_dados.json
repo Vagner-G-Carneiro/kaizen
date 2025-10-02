@@ -8,5 +8,10 @@
         "id": 2,
         "email": "teste8@gmail.com",
         "senhaHash": "$2y$10$iIuTqeHbMcKBfc8NPuepIOW73wXUF1W5kbLs1AHfpdh0RSyTCwmxW"
+    },
+    {
+        "id": 3,
+        "email": "teste3@gmail.com",
+        "senhaHash": "$2y$10$VzIU3tj4i6R6ZaL16t1d9uXDS27AIk9Mmbmr0Yi1k94h7p0CVsWXy"
     }
 ]
