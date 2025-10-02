@@ -3,12 +3,12 @@
 
     if (isset($_SESSION['id']) && !empty($_SESSION['id'])) {
 
-        header('Location: /kaizen/view/principal.view.php');
+        header('Location: /kaizen/controller/principal.controller.php');
         exit;
         
     } else {
         
-        header('Location: /kaizen/view/login.view.php');
+        header('Location: /kaizen/controller/login.controller.php');
         exit;
         
     }

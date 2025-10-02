@@ -1,87 +1,18 @@
 [
     {
         "id": 1,
-        "email": "teste7@gmail.com",
-        "senhaHash": "$2y$10$jLAeROlyLCmJhux9I\/6gruzTjAS9d5fagwouNeEXjLc.65UuZMKjm"
-    },
-    {
-        "id": 2,
-        "email": "teste8@gmail.com",
-        "senhaHash": "$2y$10$iIuTqeHbMcKBfc8NPuepIOW73wXUF1W5kbLs1AHfpdh0RSyTCwmxW"
-    },
-    {
-        "id": 3,
-        "email": "teste3@gmail.com",
-        "senhaHash": "$2y$10$VzIU3tj4i6R6ZaL16t1d9uXDS27AIk9Mmbmr0Yi1k94h7p0CVsWXy"
-    },
-    {
-        "id": 4,
-        "email": "emailteste@gmail.com",
-        "senhaHash": "$2y$10$myYvS2jcGThtVBbFhxuauO.aVrQlrHJieSDN8ZXtgvmZIltp44ANW",
-        "nome": "Nathan",
-        "motivo-mudar": "Muita coisa",
-        "foto": "Captura de tela 2025-04-23 211735.png",
+        "email": "conta@gmail.com",
+        "senhaHash": "$2y$10$oxyhQtVouaGt8jHbbecc2uxhpfIyKae3BJWx6.ZlwEiQomHiG8SCK",
+        "nome": "Teste tal",
+        "motivo-mudar": "Teste tal",
+        "foto": "",
         "habitos": [
             {
                 "id_habito": 1,
                 "habitos": {
-                    "nome-habito": "Academia",
-                    "meta": "3 vezes por semana",
-                    "motivacao-habito": "Sa&uacute;de"
-                }
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "email": "teste10@gmail.com",
-        "senhaHash": "$2y$10$oH8WnU4Y7ytUWEF8NC6s0OU.WUMCmz5FI3D8aIcUf865sr66egfqG",
-        "nome": "Teste10",
-        "motivo-mudar": "Testando 10 daquele naipe",
-        "foto": "Captura de tela 2025-10-02 095240.png",
-        "habitos": [
-            {
-                "id_habito": 1,
-                "habitos": {
-                    "nome-habito": "Teste 10",
-                    "meta": "testar 10vezes",
-                    "motivacao-habito": "testes s&atilde;o legais"
-                }
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "email": "teste11@gmail.com",
-        "senhaHash": "$2y$10$z3LmiZLlG5fiFKBWnK4xH.NWbE.EjziI.LCdpZqfLG9VQUozRe8f2",
-        "nome": "Teste11",
-        "motivo-mudar": "Teste 11",
-        "foto": "Captura de tela 2025-10-02 095240.png",
-        "habitos": [
-            {
-                "id_habito": 1,
-                "habitos": {
-                    "nome-habito": "Teste11",
-                    "meta": "Teste11",
-                    "motivacao-habito": "Teste11"
-                }
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "email": "teste12@gmail.com",
-        "senhaHash": "$2y$10$ztzbqk9BrK647nXaoDdaJ.aWcV42exPa3e9VqJLSiGaxbG1Ou0u4K",
-        "nome": "Teste 12",
-        "motivo-mudar": "Quero me tornar algu&eacute;m bem melhor, sou um teste, e quero testar melhor!",
-        "foto": "Captura de tela 2025-10-02 095240.png",
-        "habitos": [
-            {
-                "id_habito": 1,
-                "habitos": {
-                    "nome-habito": "Teste 12 da Silva",
-                    "meta": "Testar 1000 telas",
-                    "motivacao-habito": "Ser o the best of testes"
+                    "nome-habito": "Teste tal",
+                    "meta": "Teste tal",
+                    "motivacao-habito": "Teste tal"
                 }
             }
         ]

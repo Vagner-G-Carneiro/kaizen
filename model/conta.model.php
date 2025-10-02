@@ -1,7 +1,5 @@
 <?php
 
-    session_start();
-
     define('USUARIOS_JSON', __DIR__.'/banco_simulacao/usuarios_dados.json');
 
     function carregar_usuarios()
