@@ -33,6 +33,12 @@
                     ?>
                 </span></div>
 
+                <div class="erros-preenchimento"><span>
+                    <?php 
+                        echo ($_SESSION['erros']['login-geral'] ?? '');
+                    ?>
+                </span></div>
+
             </section>
             <button type="submit">Efetuar Login</button>
         </form>

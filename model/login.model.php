@@ -19,7 +19,7 @@
         return file_put_contents(USUARIOS_JSON, $json);
     }
 
-    function verificar_credenciais(array $credenciais): bool
+    function verificar_credenciais(array $credenciais): int
     {
         $usuarios = carregar_usuarios();
         $email_login = $credenciais['email'];
@@ -33,12 +33,12 @@
                     $_SESSION['id'] = $usuario['id'];
                     $_SESSION['email'] = $usuario['email'];
                     
-                    return true; 
+                    return 0; 
                 }
-                return false;
+                return 1;
             }
         }
-        return false;
+        return 2;
     }
 
 ?>

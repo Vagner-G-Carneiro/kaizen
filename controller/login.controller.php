@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require'../validacoes.php';
+    require'../utils/validacoes.php';
     require'../model/login.model.php';
 
     $email = sanitize('email');
@@ -27,12 +27,17 @@
 
     $permitir_login = verificar_credenciais($credenciais);
 
-    if($permitir_login)
+    if($permitir_login == 0)
     {
         header('Location: /kaizen/view/principal.view.php');
         exit;
-    } else {
-        $erros['erro-critico'] = 'Erro ao registrar usuario<br>Caso Persista contate<br>Os desenvolvedores.';
+    } elseif ($permitir_login == 1)
+    {
+        $erros['login-geral'] = 'Email ou senha incorretos';
         verificar_erros($erros, $email,$location);
+    } elseif($permitir_login == 2)
+    {
+        $erros['login-geral'] = 'Err: Email não ligado a uma conta.';
     }
+    verificar_erros($erros, $email,$location);
 ?>

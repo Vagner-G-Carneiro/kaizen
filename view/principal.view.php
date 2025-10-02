@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    require_once'../permissao.php';
+    require_once'../utils/permissao.php';
 
 ?>
 
