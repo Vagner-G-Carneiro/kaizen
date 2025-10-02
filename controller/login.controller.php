@@ -5,7 +5,7 @@
 
     $email = sanitize('email');
     $senha = sanitize('senha');
-    $location = '/KaizenTESTE/view/login.view.php';
+    $location = '/kaizen/view/login.view.php';
     $erros = [];
 
     if(!email_valido($email))
@@ -29,7 +29,7 @@
 
     if($permitir_login)
     {
-        header('Location: /KaizenTESTE/view/principal.view.php');
+        header('Location: /kaizen/view/principal.view.php');
         exit;
     } else {
         $erros['erro-critico'] = 'Erro ao registrar usuario<br>Caso Persista contate<br>Os desenvolvedores.';

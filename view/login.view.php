@@ -20,7 +20,7 @@
             <h1 id="subtitulo">Bem vindo de volta!</h1>
             <section>
                 
-                <input type="email" name="email" placeholder="Email...">
+                <input type="text" name="email" placeholder="Email...">
                 <div class="erros-preenchimento"><span>
                     <?php 
                         echo ($_SESSION['erros']['email'] ?? '');
@@ -38,6 +38,14 @@
         </form>
     </main>
     <a href="/kaizen/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
-</body>
+    
+    <?php
+    
+        if(isset($_SESSION['erros']))
+        {
+            unset($_SESSION['erros']);
+        }
 
+    ?>
+</body>
 </html>
