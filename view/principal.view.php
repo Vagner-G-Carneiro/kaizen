@@ -74,6 +74,7 @@
         <footer class="botoes-acao">
             <button class="btn-acao">Adicionar Hábito</button>
             <button class="btn-acao editar-perfil">Editar Perfil</button>
+            <a href="../controller/logout.controller.php" class="btn-acao">Deslogar</a>
         </footer>
         
     </main>

@@ -16,5 +16,23 @@
                 }
             }
         ]
+    },
+    {
+        "id": 2,
+        "email": "joaquim@gmail.com",
+        "senhaHash": "$2y$10$4g7HLtdHmVxmlkoShceQfu.X\/xqh0.Q3G8UxnQHNmV60Da3pFQ5kC",
+        "nome": "palmeirense",
+        "motivo-mudar": "largar a cocaina",
+        "foto": "",
+        "habitos": [
+            {
+                "id_habito": 1,
+                "habitos": {
+                    "nome-habito": "girar caneta na mao",
+                    "meta": "1",
+                    "motivacao-habito": "ser o maior girador de caneta do mundo"
+                }
+            }
+        ]
     }
 ]
