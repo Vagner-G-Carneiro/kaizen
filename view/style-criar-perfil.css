@@ -68,7 +68,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 1%;
     transition: 0.3s ease-in-out;
 }
 
@@ -109,7 +109,7 @@ form{
     flex-direction: column;
     align-items: center;
     width: 40%;
-    margin: 1% 0 1% 0;
+    margin: 2% 0 1% 0;
 }
 
 .div-informacoes input{
@@ -130,4 +130,33 @@ form{
 
 .div-informacoes input:active{
     box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+form button{
+    margin: 2%;
+    width: 15%;
+    height: 10%;
+    padding: 2%;
+    font-size: larger;
+    border-radius: 18px;
+    font-weight: 600;
+    transition: 0.3s ease-out;
+}
+
+form button:hover{
+    background-color: #673993;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 700;
+    transform: scale(1.02);
+    transform: translateY(-8px);
+    box-shadow: 3px 3px 10px  #250e3a;
+}
+
+form button:active{
+    background-color: #2d0255;
+    color: #31dfe4;
+    transform: scale(1);
+    transform: translateY(+3px);
+    box-shadow: 1px 1px 5px  #250e3a;
 }

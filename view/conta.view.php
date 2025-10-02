@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperance Criar Conta</title>
     <link rel="shortcut icon" href="localhost/SobriedadeTesteXampp/view/images/sobriedade.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style-login-conta.css">
+    <link rel="stylesheet" href="style-geral.css">
 </head>
 
 <body>
