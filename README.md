@@ -28,7 +28,7 @@ Xampp Link Download: https://www.apachefriends.org/pt_br/download.html
 Após o download, abra o Painel Control do Xampp e em Module Apache, clique no botão start, isso subirá nosso servidor.
 
 ### Passo - 2 => GitHub e o HTDOCS
-No GitHub, abra o projeto, clique em <Code> e então em Download.ZIP
+No GitHub, abra o projeto, clique em Code (Um botão verdinho) e então em Download.ZIP
 Ele fará o download do projeto kaizen.zip, faça a extração para uma pasta chamada htdocs nas pastas do xampp, provavelmente ela estará em um caminho parecido com C:\xampp\htdocs
 
 ### Passo - 3 => Abrindo o projeto
