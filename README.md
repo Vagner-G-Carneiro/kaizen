@@ -1,6 +1,6 @@
 # Kaizen - A Jornada da Melhora Contínua
 
-## AINDA NA FASE INICIAL DE DESENVOLVIMENTO
+## INICIAL DE DESENVOLVIMENTO, bem inicial mesmo
  Kaizen é uma ferramenta web minimalista, inspirada na filosofia japonesa do Kaizen (改善), que significa "melhora contínua". O projeto foi criado para auxiliar usuários a construir e monitorar bons hábitos através de ações pequenas, consistentes e diárias.
 
 Ao invés de focar em falhas ou recaídas, a abordagem aqui é celebrar o progresso diário. Acreditamos que a constância em pequenas ações é o que leva a grandes e duradouras transformações. O objetivo é simples: registrar a conclusão de um hábito a cada dia, construindo "correntes" de sucesso e visualizando sua evolução ao longo do tempo.
