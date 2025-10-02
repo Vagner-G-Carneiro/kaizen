@@ -37,7 +37,7 @@
             <button type="submit">Efetuar Login</button>
         </form>
     </main>
-    <a href="/KaizenTESTE/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
+    <a href="/kaizen/view/conta.view.php">Novo Aqui? Crie sua conta!</a>
 </body>
 
 </html>
